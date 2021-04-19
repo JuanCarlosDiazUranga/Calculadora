@@ -8,7 +8,7 @@ public class Calculadoratest {
     public void calculadoraSuma(){
         Calculadora calculadora = new Calculadora();
         int resultado = calculadora.suma(2,1);
-        assertEquals(1,resultado);
+        assertEquals(3,resultado);
 
 
 
@@ -17,13 +17,13 @@ public class Calculadoratest {
     public  void calculadoraResta(){
         Calculadora calculadora = new Calculadora();
         int resultado= calculadora.resta(2,1);
-        assertEquals(2,resultado);
+        assertEquals(1,resultado);
     }
     @Test
     public void  calculadoraMultiplicacion(){
         Calculadora calculadora = new Calculadora();
         int resultado = calculadora.multiplicacion(2,2);
-        assertEquals(1,resultado);
+        assertEquals(4,resultado);
     }
 }
 
